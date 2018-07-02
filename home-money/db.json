@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "email": "test@test.com",
+      "password": "testtest",
+      "name": "test",
+      "id": 13
+    }
+  ],
+  "bill": {
+    "value": 10636
+  },
+  "categories": [
+    {
+      "name": "test",
+      "capacity": 1200,
+      "id": 1
+    },
+    {
+      "name": "test1",
+      "capacity": 1000,
+      "id": 2
+    },
+    {
+      "name": "test3",
+      "capacity": 5000,
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 1,
+      "date": "26.06.2018 12-34-07",
+      "description": "cost",
+      "id": 5
+    },
+    {
+      "type": "outcome",
+      "amount": 400,
+      "category": 2,
+      "date": "26.06.2018 13-29-17",
+      "description": "fdv",
+      "id": 6
+    },
+    {
+      "type": "income",
+      "amount": 1000,
+      "category": 1,
+      "date": "26.06.2018 14-22-25",
+      "description": "muyt",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 200,
+      "category": 2,
+      "date": "26.06.2018 14-23-03",
+      "description": "rte",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 420,
+      "category": 2,
+      "date": "26.06.2018 14-24-51",
+      "description": "kig",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 3,
+      "date": "26.06.2018 17-48-03",
+      "description": "test",
+      "id": 10
+    },
+    {
+      "type": "income",
+      "amount": 500,
+      "category": 3,
+      "date": "26.06.2018 18-33-58",
+      "description": "rgtg",
+      "id": 11
+    }
+  ]
+}

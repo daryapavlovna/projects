@@ -1,0 +1,24 @@
+<div class="title-block">
+  <h3 class="title">
+    Страница записей <span class="sparkline bar"></span>
+  </h3>
+</div>
+
+<section class="section text-center" *ngIf="!isLoaded">
+  <home-loader></home-loader>
+</section>
+<section class="section" *ngIf="isLoaded">
+  <div class="row">
+    <div class="col-md-6">
+      <home-add-event [categories]="categories"></home-add-event>
+    </div>
+    <div class="col-md-6">
+      <home-add-category (onCategoryAdd)="newCategoryAdded($event)"></home-add-category>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <home-edit-category [categories]="categories" (onCategoryEdit)="categoryWasEdited($event)"></home-edit-category>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+.col-ls-8 {
+  width: 70%;
+}
+
+.has-error{
+  border: 1px solid red;
+}
+
+.form-group p {
+  color: red;
+}
+
